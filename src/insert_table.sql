@@ -20,8 +20,14 @@ VALUES
 (8,    'Os Lusíadas',                     'Luís Vaz de Camões',  'Montecristo',   'Poesia',    18.79),
 (9,    'Outros Jeitos de Usar a Boca',    'Rupi Kaur',          'Planeta',          'Poesia',    34.8);
 
-INSERT INTO LIVROS 
-(CATEGORIA, AUTORIA, NOME_LIVRO, EDITORA, ID_LIVRO, PREÇO)
+INSERT INTO LIVROS (
+    CATEGORIA, 
+    AUTORIA, 
+    NOME_LIVRO, 
+    EDITORA, 
+    ID_LIVRO, 
+    PREÇO
+)
 VALUES
 ('Biografia' ,	'Malala Yousafzai', 'Eu sou Malala'       , 'Companhia das Letras', 11, 22.32),
 ('Biografia' ,	'Michelle Obama'  , 'Minha história'      , 'Objetiva'            ,	12,	57.90),
@@ -35,7 +41,13 @@ VALUES
 (3,'Roberto Barros'),
 (4,'Barbara Jales');
 
-INSERT INTO VENDAS 
+INSERT INTO VENDAS (
+    ID_PEDIDO,
+    ID_VENDEDOR,
+    ID_LIVRO,
+    QTD_VENDIDA,
+    DATA_VENDA
+)
 VALUES 
 (1, 3, 7, 1, '2020-11-02'),
 (2, 4, 8, 2, '2020-11-02'),
@@ -57,7 +69,10 @@ VALUES
 (18, 2, 12, 2, '2021-01-06');
 
 
-INSERT INTO ESTOQUE 
+INSERT INTO ESTOQUE (
+    ID,
+    NOME
+)
 VALUES
 (1,  7),
 (2,  10),
