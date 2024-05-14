@@ -20,6 +20,13 @@ VALUES
 (8,    'Os Lusíadas',                     'Luís Vaz de Camões',  'Montecristo',   'Poesia',    18.79),
 (9,    'Outros Jeitos de Usar a Boca',    'Rupi Kaur',          'Planeta',          'Poesia',    34.8);
 
+INSERT INTO LIVROS 
+(CATEGORIA, AUTORIA, NOME_LIVRO, EDITORA, ID_LIVRO, PREÇO)
+VALUES
+('Biografia' ,	'Malala Yousafzai', 'Eu sou Malala'       , 'Companhia das Letras', 11, 22.32),
+('Biografia' ,	'Michelle Obama'  , 'Minha história'      , 'Objetiva'            ,	12,	57.90),
+('Biografia' ,	'Anne Frank'      , 'Diário de Anne Frank', 'Pe Da Letra'         , 13, 34.90);
+
 
 INSERT INTO VENDEDORES 
 VALUES
