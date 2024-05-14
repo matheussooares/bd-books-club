@@ -2,9 +2,13 @@
 Clube do Livro, um e-commerce de artigos literários e livros
 
 ### Modelo relacional
+<div align="center">
+  <img src="figs/diagrama.png" alt="" width="300" height="200">
+  <br>
+  <em></em>
+</div>
 
-### Tabelas
-quatro principais tabelas. A primeira tem os livros e as suas características, que está relacionada com a tabela “estoque”, que contém a quantidade de livros disponíveis na empresa. Temos também o histórico de pedidos na tabela “vendas”, que está relacionada com os vendedores do Clube do Livro.
+Observe que as quatro principais tabelas, na figura acima. A primeira tem os livros e as suas características, que está relacionada com a tabela “estoque”, que contém a quantidade de livros disponíveis na empresa. Temos também o histórico de pedidos na tabela “vendas”, que está relacionada com os vendedores do Clube do Livro.
 
 ## Tecnologias utilizadas
 
