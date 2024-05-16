@@ -50,13 +50,11 @@ Segue a descrição de cada entidade e atributos.
 
 ## Tecnologias utilizadas
 
-A linguagem utilizada é o SQL, do inglês para Structured Query Language, livremente traduzida para Linguagem de Consulta Estruturada e é uma linguagem padrão para trabalhar com bancos de dados relacionais.
+- **SQL**: Structured Query Language, uma linguagem padrão para trabalhar com bancos de dados relacionais.
+- **MySQL**: Para manipulação e organização dos dados.
+- **Uniform Server Zero (Unicontroller)**: Conjunto de servidores contendo MySQL, gratuito e controlado pelo UniController, útil para hospedar o desenvolvimento.
+- **MySQL Workbench**: Ambiente de desenvolvimento integrado para o MySQL, oferecendo uma interface amigável para escrita de códigos.
 
-- ***MySQL***: para manuseio e organização dos dados.
-
-- ***Uniform Server Zero (Unicontroller)***: um conjunto de servidores que contém o MySQL. Ele é gratuito, controlado pelo UniController e será útil para hospedar tudo que for desenvolvido durante o curso.
-
-- ***MySQL Workbench***: ambiente de desenvolvimento integrado para o sistema de banco de dados MySQL, oferecendo um sistema mais amigável para escrever seus códigos.
 
 
 ## Referências ℹ️
